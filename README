@@ -1,0 +1,21 @@
+Global setup:
+ Download and install Git
+  git config --global user.name "Eric Huggins"
+  git config --global user.email eric.huggins1@gmail.com
+        Next steps:
+  mkdir EVHGrailsApp2
+  cd EVHGrailsApp2
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:ehuggz/EVHGrailsApp2.git
+  git push origin master
+      Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:ehuggz/EVHGrailsApp2.git
+  git push origin master
+      Importing a Subversion Repo?
+  Click here
+      When you're done:
+  Continue
